@@ -1,4 +1,4 @@
-import mysql.connector
+import mysql.connector # type: ignore
 from mysql.connector import Error # type: ignore
 from rdflib import Graph, Literal, RDF, URIRef # type: ignore
 from rdflib.namespace import RDFS, OWL # type: ignore
