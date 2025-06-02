@@ -133,6 +133,6 @@ try:
 except Exception as e:
     print(f"Erro ao salvar o arquivo RDF: {e}")
 
-# Fechar conexão
+#  Fechar conexão
 cursor.close()
 connection.close()
