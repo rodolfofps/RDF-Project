@@ -10,7 +10,7 @@ print("Diretório de trabalho atual:", os.getcwd())
 # Tentativa de conexão com o banco
 try:
     connection = mysql.connector.connect(
-        host="localhost",
+        host="127.0.0.1",
         user="root",
         password="",
         database ="`dbviveiro" 
